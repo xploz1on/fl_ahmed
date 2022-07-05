@@ -6,8 +6,8 @@ services:
       context: .
     container_name: testx_2
     environment:
-      - PUID=1000
-      - PGID=1000
+      #- PUID=1000
+      #- PGID=1000
       #- TZ=America/Caracas
     restart: 'always'
     ports:

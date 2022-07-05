@@ -25,14 +25,14 @@ library(RSQLite)
 # Init the database
 #create_db(
 #  credentials_data = credentials,
-#  sqlite_path = "database.sqlite", # will be created
+#  sqlite_path = "/home/app/db/database.sqlite", # will be created
 #  passphrase = "_CytoTalk_"
 #  #key_get("cytotalk-key", "_CytoTalk_")
 #   #passphrase = "passphrase_wihtout_keyring"
 #)
 
 
-conn <- DBI::dbConnect(RSQLite::SQLite(), dbname = "/home/app/database.sqlite")
+conn <- DBI::dbConnect(RSQLite::SQLite(), dbname = "database.sqlite")
 credentials = read_db_decrypt(conn = conn, name = "credentials", passphrase = "_CytoTalk_")
 
 # Wrap your UI with secure_app, enabled admin mode or not
