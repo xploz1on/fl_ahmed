@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  webserver:
+    build: 
+      context: .
+    container_name: testx
+    restart: 'always'
+    ports:
+      - "1818:3838"
+    volumes: 
+      - ./container:/home/app

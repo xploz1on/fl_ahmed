@@ -1,0 +1,40 @@
+ggrepel:
+  Package: ggrepel
+  Repository: CRAN
+  Version: 0.9.1
+shiny:
+  Package: shiny
+  Repository: CRAN
+  Version: 1.7.1
+ggplot2:
+  Package: ggplot2
+  Repository: CRAN
+  Version: 3.3.5
+hrbrthemes:
+  Package: hrbrthemes
+  Repository: CRAN
+  Version: 0.8.0
+plotly:
+  Package: plotly
+  Repository: CRAN
+  Version: 4.10.0
+dplyr:
+  Package: dplyr
+  Repository: CRAN
+  Version: 1.0.9
+magrittr:
+  Package: magrittr
+  Repository: CRAN
+  Version: 2.0.3
+shinyauthr:
+  Package: shinyauthr
+  Repository: CRAN
+  Version: 1.0.0
+tibble:
+  Package: tibble
+  Repository: CRAN
+  Version: 3.1.7
+sodium:
+  Package: sodium
+  Repository: CRAN
+  Version: 1.2.1
