@@ -13,4 +13,4 @@ services:
     ports:
       - "4:3838"
     volumes: 
-      - ./container/database.sqlite:/home/app/database.sqlite
+      - ./db/database.sqlite:/home/app/db/database.sqlite
