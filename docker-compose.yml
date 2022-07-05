@@ -5,8 +5,12 @@ services:
     build: 
       context: .
     container_name: testx
+    environment:
+      - PUID=1000
+      - PGID=1000
+      #- TZ=America/Caracas
     restart: 'always'
     ports:
-      - "1818:3838"
+      - "4:3838"
     volumes: 
       - ./container:/home/app
