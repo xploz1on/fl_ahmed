@@ -25,7 +25,7 @@ library(RSQLite)
 # Init the database
 #create_db(
 #  credentials_data = credentials,
-#  sqlite_path = "/home/app/db/database.sqlite", # will be created
+#  sqlite_path = "database.sqlite", # will be created
 #  passphrase = "_CytoTalk_"
 #  #key_get("cytotalk-key", "_CytoTalk_")
 #   #passphrase = "passphrase_wihtout_keyring"
