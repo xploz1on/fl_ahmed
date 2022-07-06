@@ -4,7 +4,7 @@ services:
   webserver:
     build: 
       context: .
-    container_name: testx_2
+    container_name: testx_3
     environment:
       #- PUID=1000
       #- PGID=1000
@@ -13,4 +13,4 @@ services:
     ports:
       - "4:3838"
     volumes: 
-      - ./test/:/home/app/
+      - ./test:/home/app
